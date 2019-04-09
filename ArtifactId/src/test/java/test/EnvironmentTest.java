@@ -22,7 +22,7 @@ public class EnvironmentTest {
         driver.findElement(By.name("q")).sendKeys("Mariia Nepomiashcha Facebook");
         driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
         driver.quit();
-        // comment test
+        // check commit
 
     }
 
