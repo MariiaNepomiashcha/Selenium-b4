@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class LitecartAdminTest {
+public class Task7_LitecartAdminTest {
 
     private WebDriver driver;
 
@@ -19,6 +19,7 @@ public class LitecartAdminTest {
     public void start() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.MILLISECONDS);
+
     }
 
     @Test

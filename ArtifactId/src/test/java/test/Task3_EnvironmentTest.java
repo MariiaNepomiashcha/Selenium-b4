@@ -7,7 +7,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-public class EnvironmentTest {
+public class Task3_EnvironmentTest {
 
     @Test
     public void googleSearch (){
@@ -19,15 +19,15 @@ public class EnvironmentTest {
         WebDriver driver = new ChromeDriver(caps);
         System.out.println(((HasCapabilities) driver).getCapabilities());
 
-        WebElement form1 = driver.findElement(By.id("login-form"));
-        WebElement form2 = driver.findElement(By.tagName("form"));
-        WebElement form3 = driver.findElement(By.className("login"));
-        WebElement form4 = driver.findElement(By.cssSelector("form.login"));
-        WebElement form5 = driver.findElement(By.cssSelector("#login-form"));
-
-        WebElement field1 = driver.findElement(By.name("username"));
-        WebElement field2 = driver.findElement(By.xpath("//input[@name='username']"));
-        WebElement link = driver.findElement(By.linkText("Logout"));
+//        WebElement form1 = driver.findElement(By.id("login-form"));
+//        WebElement form2 = driver.findElement(By.tagName("form"));
+//        WebElement form3 = driver.findElement(By.className("login"));
+//        WebElement form4 = driver.findElement(By.cssSelector("form.login"));
+//        WebElement form5 = driver.findElement(By.cssSelector("#login-form"));
+//
+//        WebElement field1 = driver.findElement(By.name("username"));
+//        WebElement field2 = driver.findElement(By.xpath("//input[@name='username']"));
+//        WebElement link = driver.findElement(By.linkText("Logout"));
 
         driver.get("http://www.google.com/");
         driver.manage().window().maximize();
