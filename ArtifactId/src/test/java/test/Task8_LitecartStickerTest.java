@@ -29,7 +29,7 @@ public class Task8_LitecartStickerTest {
     @Test
     public void exactlyOneStickerIsPresentForEveryItem() {
 
-        By itemsAll = By.xpath("(//div[@id='main']//a[@class='link'])");
+        By itemsAll = By.xpath("//a[contains(@title, 'Duck') and @class='link']");
         By label = By.xpath(".//div[contains(@class, 'sticker')]");
 
         List<WebElement> itemsList = driver.findElements(itemsAll);
@@ -37,6 +37,7 @@ public class Task8_LitecartStickerTest {
         for (WebElement currentItem : itemsList) {
             assertEquals(1,currentItem.findElements(label).size());
         }
+
 
     }
 
