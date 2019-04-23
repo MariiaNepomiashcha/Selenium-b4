@@ -29,7 +29,9 @@ public class Task8_LitecartStickerTest {
     @Test
     public void exactlyOneStickerIsPresentForEveryItem() {
 
-        By itemsAll = By.xpath("//a[contains(@title, 'Duck') and @class='link']");
+//        By itemsAll = By.xpath("(//div[@id='main']//a[@class='link'])");
+//        By itemsAll = By.xpath("//a[contains(@title, 'Duck') and @class='link']");
+        By itemsAll = By.xpath("//li[contains(@class, 'product')]");
         By label = By.xpath(".//div[contains(@class, 'sticker')]");
 
         List<WebElement> itemsList = driver.findElements(itemsAll);
