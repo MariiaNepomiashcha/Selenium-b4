@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class Task9_AlphabetOrder {
+public class Task09_LitecartAdmin_AlphabetOrder_Test {
 
     private WebDriver driver;
 

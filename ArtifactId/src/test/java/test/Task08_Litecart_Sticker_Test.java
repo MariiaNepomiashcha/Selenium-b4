@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
-public class Task8_LitecartStickerTest {
+public class Task08_Litecart_Sticker_Test {
     private WebDriver driver;
 
     @Before

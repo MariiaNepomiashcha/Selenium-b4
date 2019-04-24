@@ -3,21 +3,25 @@ package test;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-public class Task3_EnvironmentTest {
+public class GoogleLOGIN_Test {
 
     @Test
     public void googleSearch (){
 
         //WebDriver driver = new ChromeDriver();
+        FirefoxOptions options = new FirefoxOptions().setLegacy(false);
+        WebDriver driver = new FirefoxDriver(options);
 
-        DesiredCapabilities caps = new DesiredCapabilities();
-      //  caps.setCapability("unexpectedAlertBehaviour", "dismiss");
-        WebDriver driver = new ChromeDriver(caps);
-        System.out.println(((HasCapabilities) driver).getCapabilities());
+//        DesiredCapabilities caps = new DesiredCapabilities();
+//      //  caps.setCapability("unexpectedAlertBehaviour", "dismiss");
+//        WebDriver driver = new ChromeDriver(caps);
+//        System.out.println(((HasCapabilities) driver).getCapabilities());
 
 //        WebElement form1 = driver.findElement(By.id("login-form"));
 //        WebElement form2 = driver.findElement(By.tagName("form"));

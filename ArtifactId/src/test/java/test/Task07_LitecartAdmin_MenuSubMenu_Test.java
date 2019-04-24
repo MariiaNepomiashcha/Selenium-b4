@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Task7_LitecartAdminTest {
+public class Task07_LitecartAdmin_MenuSubMenu_Test {
 
     private WebDriver driver;
 
