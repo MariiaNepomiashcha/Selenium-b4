@@ -9,7 +9,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-public class GoogleLOGIN_Test {
+public class GoogleSearch_Test {
 
     @Test
     public void googleSearch (){

@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArtifactId.iml" filepath="$PROJECT_DIR$/.idea/modules/ArtifactId.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArtifactId.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArtifactId.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArtifactId.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ArtifactId.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GroupId.ArtifactId.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GroupId.ArtifactId.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GroupId.ArtifactId.test.iml" filepath="$PROJECT_DIR$/.idea/modules/GroupId.ArtifactId.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/NepomiashchaMariia.iml" filepath="$PROJECT_DIR$/NepomiashchaMariia.iml" />
     </modules>
   </component>
