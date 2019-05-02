@@ -21,7 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static java.lang.System.currentTimeMillis;
 import static org.junit.Assert.assertEquals;
 
-public class Task11_Litecart_CreateNewUserAccount {
+public class Task11_Litecart_CreateNewUserAccount_Test {
     private WebDriver driver;
 
     @Before

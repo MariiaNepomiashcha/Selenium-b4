@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 
 import static java.lang.System.currentTimeMillis;
 
-public class Task12_LitecartAdmin_CreateNewDuck {
+public class Task12_LitecartAdmin_CreateNewDuck_Test {
 
     private WebDriver driver;
 
@@ -40,11 +40,9 @@ public class Task12_LitecartAdmin_CreateNewDuck {
 
 
         WebElement downloadPhoto = driver.findElement(By.xpath("//input[@name='new_images[]']"));
-
         File file = new File("src/test/resources/duck.jpg");
         downloadPhoto.sendKeys(file.getAbsolutePath());
 
-//        downloadPhoto.sendKeys("C:\\MoonLight\\IDEA Projects\\Selenium-b4\\duck.jpg");
         driver.findElement(By.xpath("//input[@name='quantity']")).sendKeys("100");
         new Select(driver.findElement(By.xpath("//select[@name='sold_out_status_id']"))).selectByVisibleText("-- Select --");
 
