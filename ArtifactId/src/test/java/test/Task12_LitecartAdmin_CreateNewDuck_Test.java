@@ -62,6 +62,7 @@ public class Task12_LitecartAdmin_CreateNewDuck_Test {
         driver.findElement(By.xpath("//a[contains(.,'" + uniqueDuck + "')]"));
 
         System.out.println(uniqueDuck + " is present");
+
     }
 
     void loginAsAdmin() {
