@@ -74,7 +74,6 @@ public class Task17_LitecartAdmin_LogsCheck {
         driver.findElement(By.xpath("//a[contains(.,'Rubber Ducks')]")).click();
         driver.findElement(By.xpath("//a[contains(.,'Subcategory')]")).click();
 
-
         By products = By.xpath("//tr[contains(@class,'row')]//td[3]//a");
 
         int productsCount = driver.findElements(products).size();
